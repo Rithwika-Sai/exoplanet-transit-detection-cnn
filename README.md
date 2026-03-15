@@ -1,19 +1,34 @@
-# Exoplanet Transit Detection using CNN
+# Exoplanet Transit Detection using Machine Learning
 
-## Objective
-Detect exoplanet transit signals from Kepler light curve data using deep learning.
+This project detects potential exoplanets by analyzing stellar light curves and identifying transit patterns.
 
-## Dataset
-NASA Kepler telescope light curve dataset.
+Machine learning is used to classify whether a dip in brightness corresponds to an exoplanet transit.
 
-## Method
-Convolutional Neural Network (CNN) for classification.
+## Features
 
-## Steps
-1. Preprocessing time-series light curve data
-2. Feature extraction
-3. CNN model training
-4. Model evaluation using accuracy and confusion matrix
+• Light curve analysis  
+• Transit detection  
+• Machine learning classification  
+• Random Forest model  
 
-## Tools
-Python, TensorFlow/Keras, NumPy, Matplotlib
+## Workflow
+
+1. Data preprocessing
+2. Feature scaling
+3. Model training
+4. Model evaluation
+5. Transit prediction
+
+## Technologies
+
+Python  
+Scikit-learn  
+Pandas  
+NumPy  
+
+## Example Output
+
+The model predicts whether a stellar brightness dip corresponds to:
+
+• Exoplanet Transit  
+• No Transit
